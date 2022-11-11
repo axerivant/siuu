@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { Widget } from '../ui'
 	import Project from './Project.svelte'
 	const DummyProjects: ProjectType[] = [
 		{
@@ -39,3 +40,5 @@
 {#each DummyProjects as project}
 	<Project {project} />
 {/each}
+
+<Widget tw="text-center text-400">+ add project</Widget>

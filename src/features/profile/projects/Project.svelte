@@ -1,6 +1,5 @@
 <script lang="ts">
-	import Link from '../ui/Link.svelte'
-	import Widget from './../ui/Widget.svelte'
+	import { Link, Widget } from '../ui'
 	export let project: ProjectType
 </script>
 
