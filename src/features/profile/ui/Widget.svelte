@@ -9,6 +9,6 @@
 
 <style>
 	#widget {
-		@apply bg-700 w-7/12 p-12 rounded-sm;
+		@apply bg-700 w-7/12 p-12 rounded-sm max-w-5xl;
 	}
 </style>
