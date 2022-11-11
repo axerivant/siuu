@@ -1,5 +1,4 @@
 <script lang="ts">
-	/**Profile Header*/
 	import { Widget } from '../ui'
 	import { ProfileContact, ProfileImage, ProfileInfo } from '.'
 </script>
