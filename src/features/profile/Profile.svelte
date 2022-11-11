@@ -1,17 +1,9 @@
 <script lang="ts">
-	import Widget from './ui/Widget.svelte'
+	import Header from './sections/header'
 
 	export let ProfileOwnerUID: string
 </script>
 
-<main>
-	<Widget>
-		<p>content</p>
-	</Widget>
+<main class="bg-black min-h-screen text-white flex flex-col items-center gap-3 p-12">
+	<Header />
 </main>
-
-<style>
-	main {
-		@apply bg-black min-h-screen text-white flex flex-col items-center gap-3 p-12;
-	}
-</style>
