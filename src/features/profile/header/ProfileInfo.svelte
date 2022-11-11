@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Tags } from './../../ui'
+	import { Tags } from './../ui'
 </script>
 
 <div id="profile-info" class="flex flex-col gap-6 w-96">

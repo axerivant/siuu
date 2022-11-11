@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Header from './sections/header'
+	import Header from './header'
 
 	export let ProfileOwnerUID: string
 </script>

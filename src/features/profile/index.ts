@@ -1,3 +1,3 @@
 import Profile from './Profile.svelte'
 
-export { Profile }
+export default Profile

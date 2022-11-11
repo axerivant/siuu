@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { IconButton } from '../../ui'
+	import { IconButton } from '../ui'
 </script>
 
 <div id="profile-contact" class="w-2/12 flex gap-3">

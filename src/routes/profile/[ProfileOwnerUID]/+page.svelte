@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Profile } from '@features/profile'
+	import Profile from '@features/profile'
 	import { page } from '$app/stores'
 
 	const ProfileOwnerUID = $page.params.ProfileOwnerUID
