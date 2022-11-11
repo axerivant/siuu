@@ -1,4 +1,5 @@
 <script lang="ts">
+	import IconButton from '../../ui/IconButton.svelte'
 	import Tags from '../../ui/Tags.svelte'
 	import Widget from '../../ui/Widget.svelte'
 </script>
@@ -16,5 +17,9 @@
 		</div>
 		<Tags />
 	</div>
-	<div id="profile-contact" class="w-2/12">ct</div>
+	<div id="profile-contact" class="w-2/12 flex gap-3">
+		<IconButton icon="/icons/mail.svg" />
+		<IconButton icon="/icons/phone.svg" />
+		<IconButton icon="/icons/document.svg" />
+	</div>
 </Widget>
